@@ -1,5 +1,9 @@
 # Postmortem Report: Go-experience System Outage
 
+<p align="center">
+<img src="https://i.redd.it/vri4ra46xi531.jpg" width=100% height=100% />
+</p>
+
 ## Issue Summary:
 On April 12, from 6:00 AM to 7:30 AM (GMT+3), a part of the Goexperience system responsible for handling call hangups experienced an outage. The primary cause of this incident was the deployment of untested code into the production server by our engineers. To restore the system's functionality, a rollback to the previous stable version was performed.
 
